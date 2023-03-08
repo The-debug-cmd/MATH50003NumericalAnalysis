@@ -33,6 +33,7 @@ notebook("src/notes/II.7.ConditionNumbers.jmd"; nkwds...)
 
 # Part III
 notebook("src/notes/III.1.Fourier.jmd"; nkwds...)
+notebook("src/notes/III.2.DFT.jmd"; nkwds...)
 
 
 
@@ -82,6 +83,9 @@ notebook("src/sheets/sheet6s.jmd"; pkwds...)
 write("src/sheets/sheet7.jmd", replace(read("src/sheets/sheet7s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
 notebook("src/sheets/sheet7.jmd"; pkwds...)
 notebook("src/sheets/sheet7s.jmd"; pkwds...)
+write("src/sheets/sheet8.jmd", replace(read("src/sheets/sheet8s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
+notebook("src/sheets/sheet8.jmd"; pkwds...)
+notebook("src/sheets/sheet8s.jmd"; pkwds...)
 
 
 #####
